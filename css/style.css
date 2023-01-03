@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    color: white;
+    /* font-family: 'Poppins', sans-serif;
+    font-family: 'Maven Pro', sans-serif; */
+
+    font-family: 'Comfortaa', cursive;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+li{
+    list-style: none;
+}
+.bg-layout{
+    border: 5px solid #0d1922;
+    border-radius: 50px;
+    max-width: 80%;
+    margin: auto;
+    margin-top: 20px;
+
+}
+.container{
+    max-width: 100%;
+    background-color: #024c88;
+    height: 701px;
+    border-radius: 44px;
+}
+.components{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* end of common style */
+
+.component1-container{
+    display: flex;
+    flex-direction: column;
+}
+.component-1{
+    width: 100px;
+    height: 701px;
+    background-color: #013966;
+    border-radius: 44px 0px 0px 44px;
+}
+.component1-header>h1{
+    display: flex;
+    transform: rotate(90deg);
+    margin-top: 94px;
+}
+.compnent1-contant>p{
+    display: flex;
+    transform: rotate(90deg);
+    width: 102px;
+    margin-top: 179px;
+}
+.component1-social-icon{
+    margin-top: 180px;
+}
+.component1-social-icon>a>i{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+
+/* end of component1 */
+
+
+
+
+
+.component-2>img{
+    height: 600px;
+    margin-top: 55px;
+}
+
+
+
+/* end of component 2 */
+
+
+.component-3{
+    width: 600px;
+}
+.component-3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form-reffarence{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+.contact-form-reffarence>.email{
+    margin-right: 76px;
+}
+.contact-form-reffarence>.phone>a,.contact-form-reffarence>.email>a{
+    font-size: 13.5px;
+}
+.main-form{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-row-gap: 25px;
+}
+.main-form>input[type="text"]{
+    height: 33px;
+    width: 370px;
+    background-color: #013c6c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.main-form>input[type="email"]{
+    height: 33px;
+    width: 370px;
+    background-color: #013c6c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.main-form>input[type="massage"]{
+    height: 102px;
+    width: 370px;
+    background-color: #013c6c;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.main-form>a{
+    width: 150px;
+    padding: 13px 5px;
+    background-color: #ffffff;
+    border: none;
+    color: rgb(19, 19, 19);
+    border-radius: 50px;
+    font-size: 14px;
+    font-weight: 400px;
+    text-decoration: none;
+    text-align: center;
+}
+.massage-box{
+    height: 102px;
+    width: 370px;
+}
+.contact-form-footer{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 75px;
+}
+.socail-footer>a>p,.socail-footer>p{
+    font-size: 12px;
+}
+.socail-footer{
+    margin-right: 20px;
+}
+
+
+
+/* end of .component-3 */
+
+
+
+.component4-container{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+}
+.list-item{
+    display: flex;
+    transform: rotate(90deg);
+}
+.list-item>a>li:hover{
+    border-top: 1px solid white;
+}
+.rth-child{
+    border-top: 1px solid white;
+}
+.list-item>a>li{
+    padding: 5px 25px;
+}
+.component4-head-icon>h1{
+    display: flex;
+    transform: rotate(90deg);
+    margin-top: 88px;
+}
+.languages>h1{
+    display: flex;
+    transform: rotate(90deg);
+    margin-top: 467px;
+}
